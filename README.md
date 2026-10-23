@@ -1,3 +1,9 @@
+> [!NOTE]
+> **衍生声明**：本仓库是 [LordVayron/video-factory](https://github.com/LordVayron/video-factory) 的社区衍生升级版，
+> **鸣谢原作者 [LordVayron](https://github.com/LordVayron)** 的开源贡献。衍生改动见 [UPGRADES.md](UPGRADES.md)，
+> 完整出处与许可链见 [NOTICE.md](NOTICE.md)。
+> 许可构成不变：**MIT**（保留版权声明即可自由使用、修改、分发，**含商业用途**）。
+
 <p align="center">
   <img src="docs/media/hero.jpg" alt="Video Factory: the AI video studio your agent runs" width="100%">
 </p>

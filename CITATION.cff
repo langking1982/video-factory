@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite both this derivative and the original video-factory by LordVayron."
+title: "Video Factory (derivative)"
+authors:
+  - alias: "langking1982"
+    website: "https://github.com/langking1982"
+type: software
+repository-code: "https://github.com/langking1982/video-factory"
+abstract: >-
+  An AI video studio your coding agent installs and runs (derivative of
+  LordVayron/video-factory): UGC ads, micro-dramas, sitcoms, launch films.
+  MIT licensed, suitable for commercial use with attribution.
+keywords:
+  - "AI video"
+  - "UGC ads"
+  - "coding agents"
+  - "video production"
+license: MIT
+date-released: "2026-10-23"
+preferred-citation:
+  type: software
+  title: "Video Factory"
+  authors:
+    - alias: "LordVayron"
+  repository-code: "https://github.com/LordVayron/video-factory"
+  year: 2026
