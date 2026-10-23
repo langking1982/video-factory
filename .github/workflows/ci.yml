@@ -1,0 +1,19 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  smoke:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Smoke checks
+        run: |
+          test -f LICENSE || { echo "LICENSE missing"; exit 1; }
+          test -f NOTICE.md || { echo "NOTICE.md missing"; exit 1; }
+          grep -q "LordVayron/video-factory" NOTICE.md || { echo "attribution missing"; exit 1; }
+          echo "sanity OK"
